@@ -17,5 +17,5 @@ apply plugin: "at.karriere.version"
 group = 'com.larson.test'
 
 versionPlugin {
-    customMessage = "[skip ci]"
+    customMessage = '[skip ci]'
 }
