@@ -16,9 +16,7 @@ apply plugin: "at.karriere.version"
 
 group = 'com.larson.test'
 
-versionPlugin {
-    customMessage = '[skip ci]'
-}
+versionPlugin.customMessage = '[skip ci]'
 
 task displayVersion() {
     println "${version}"
