@@ -19,7 +19,3 @@ group = 'com.larson.test'
 versionPlugin {
     customMessage = '[skip ci]'
 }
-
-task wrapper(type: Wrapper) {
-	gradleVersion = '3.5.1'
-}
