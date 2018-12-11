@@ -19,3 +19,7 @@ group = 'com.larson.test'
 versionPlugin {
     customMessage = '[skip ci]'
 }
+
+task displayVersion() {
+    println "${version}"
+}
